@@ -14,6 +14,7 @@
 
     }else if(renda>3100.00 && renda <= 4800.00){
         return("Classe B")
+        
     }else if (renda> 4800.00){
         return("Classe A")
     }
