@@ -1,12 +1,12 @@
 
 const calculoRenda = require('./classes')
-var renda = -1
+var renda = 1
 
 
 test("Valor da renda deve ser maior que Zero",()=>{
  
-        calculoRenda(renda)
-        expect(renda).toBeGreaterThan(0);    
+        var result = calculoRenda(parseFloat("0"))
+        expect(result).toBe("Classe E");    
         
     })
 
